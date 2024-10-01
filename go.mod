@@ -1,4 +1,4 @@
-module Navigation
+module github.com/CharlesMuchogo/GoNavigation
 
 go 1.23.1
 
