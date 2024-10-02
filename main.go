@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Navigation/cmd"
-	"Navigation/samples"
+	"github.com/CharlesMuchogo/GoNavigation/cmd"
+	"github.com/CharlesMuchogo/GoNavigation/samples"
 	"log"
 )
 

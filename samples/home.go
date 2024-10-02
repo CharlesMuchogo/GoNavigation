@@ -1,7 +1,7 @@
 package samples
 
 import (
-	"Navigation/cmd"
+	"github.com/CharlesMuchogo/GoNavigation/cmd"
 	"github.com/charmbracelet/huh"
 	"log"
 )
