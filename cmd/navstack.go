@@ -8,8 +8,6 @@ import (
 	"sync"
 )
 
-var Navigator = NavStack{}
-
 type NavStack struct {
 	items []func()
 	mu    sync.Mutex

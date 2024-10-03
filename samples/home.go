@@ -1,7 +1,7 @@
 package samples
 
 import (
-	"github.com/CharlesMuchogo/GoNavigation/cmd"
+	"github.com/CharlesMuchogo/GoNavigation/navigation"
 	"github.com/charmbracelet/huh"
 	"log"
 )
@@ -28,10 +28,10 @@ func HomePage() {
 	}
 
 	if selectedOption != "4" {
-		cmd.Navigator.Navigate(func() {
+		navigation.Navigator.Navigate(func() {
 			DescriptionPage(selectedOption)
 		})
 	} else {
-		cmd.Navigator.Pop()
+		navigation.Navigator.Pop()
 	}
 }
